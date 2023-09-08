@@ -131,5 +131,17 @@ background-color: #2E2F42;
     color:#F4F4FD;
     letter-spacing: 0.02em;
 }
-
-
+.header {
+    border-bottom: 1px solid #e7e0fc
+}
+.container {
+    width: 1158px;
+    display: flex;
+    padding: left 0; 
+    padding: right 15px;
+    margin-left 0; 
+    margin-right: 15px
+}
+.container_nav {
+    display: inline;
+}
