@@ -140,11 +140,13 @@ background-color: #2E2F42;
 .container {
     width: 1158px;
     display: flex;
-    padding: left 0; 
-    padding: right 15px;
+    padding: 0 15 0 15; 
     margin-left 0; 
-    margin-right: 15px
+    margin-right: 15px;
 }
 .container_nav {
     display: inline;
+}
+.images {
+    display: block;
 }
