@@ -22,6 +22,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+margin-right: 76px;
 }
 .logo-studio {
 color: #2e2f42;
@@ -35,6 +36,13 @@ color: #2e2f42;
 }
 .nav-link:hover, .nav-link:focus {
 color: #404bbf;
+}
+.hero-address {
+    font-style: normal;
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+    padding: 24px 0 24px;
 }
 .address-m {
 color: #434455;
@@ -135,18 +143,29 @@ background-color: #2E2F42;
     letter-spacing: 0.02em;
 }
 .header {
-    border-bottom: 1px solid #e7e0fc
+    border-bottom: 1px solid #e7e9fc
 }
 .container {
     width: 1158px;
     display: flex;
-    padding: 0 15 0 15; 
-    margin-left 0; 
-    margin-right: 15px;
+    padding: 0 15px 0 15px; 
+    margin 0;
 }
 .container_nav {
-    display: inline;
+    display: flex;
+    align-items: center;
 }
 .images {
     display: block;
+}
+.menu {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0 24px;
+}
+.menu-end {
+    margin-right: 0;
+}
+.address-end {
+    margin-right: 0;
 }
