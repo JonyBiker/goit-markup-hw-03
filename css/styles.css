@@ -1,7 +1,7 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
+/*-root-*/
+*, ul, h1, h2, h3, p {
+    padding: 0;
+    margin: 0;
 }
 body {
 color:#434455;
