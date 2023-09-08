@@ -63,9 +63,18 @@ list-style-type: none;
 }
 .main-section {
 background-color: #2E2F42;
+padding: 188px 0;
     }
-.hiden {
-    visibility: hidden;
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+padding: 0;
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+white-space: nowrap;
+border: 0;
     }
 .hero-header {
 color: #ffffff;
@@ -73,6 +82,7 @@ font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
+max-width: 496px;
 }
 .button {
 background-color: #4D5AE5;
@@ -83,6 +93,10 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #ffffff;
 cursor: pointer;
+min-width: 169px;
+height: 56px;
+border: none;
+border-radius: 4px;
 }
 .button:hover, .button:focus {
 background-color:#404BBF;
@@ -165,4 +179,14 @@ background-color: #2E2F42;
 }
 .address-end {
     margin-right: 0;
+}
+.feature {
+    padding: 120px 0;
+}
+.feature-text {
+    display: flex;
+    gap: 24px;
+}
+.feature-text-first {
+    width: calc((100%-72px)/4);
 }
