@@ -55,8 +55,6 @@ ul {
 .images {
     display: block;
     object-fit: cover;
-
-
 }
 
 /*--header--*/
@@ -84,6 +82,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 margin-right: 76px;
+padding: 24px 0;
 }
 .logo-studio {
 color: #2e2f42;
