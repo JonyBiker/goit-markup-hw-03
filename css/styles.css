@@ -53,6 +53,7 @@ ul {
 .images {
     display: block;
     object-fit: cover;
+    
 
 }
 
@@ -66,7 +67,6 @@ ul {
     display: flex;
     padding: 0 15px 0 15px;
     margin: 0 auto;
-    justify-content: space-between;
 }
 .container_nav {
     display: flex;
