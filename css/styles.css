@@ -214,7 +214,7 @@ text-align: center;
     row-gap: 48px;
 }
 .portfolio-item-app {
-width: calc((100% - 48px) / 3);
+flex-basis: calc((100% - 48px) / 3);
 }
 .app {
     padding: 32px 16px;
@@ -226,24 +226,6 @@ width: calc((100% - 48px) / 3);
 .footer-section {
 background-color: #2E2F42;
 padding: 100px 0;
-}
-.container-footer {
-    width: 1158px;
-        padding: 0 15px 0 15px;
-        margin: 0 auto;
-        justify-content: space-between;
-}
-.logo-web-footer{
-font-family: 'Raleway',
-sans-serif;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4d5ae5;
-margin-right: 76px;
-display: inline-block;
-margin-bottom: 16px;
 }
 
 .logo-studio-footer {
