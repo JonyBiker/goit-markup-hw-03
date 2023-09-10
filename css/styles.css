@@ -159,6 +159,7 @@ letter-spacing: 0.02em;
 }
 .team-section {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 .header-section {
 color:#2E2F42;
@@ -176,7 +177,6 @@ margin-bottom: 72px;
     border-radius: 0px 0px 4px 4px;
 
 }
-
 .sectiom-our-team {
     display: flex;
     gap: 24px;
@@ -185,7 +185,6 @@ margin-bottom: 72px;
     padding: 32px 0;
 
 }
-
 .card-name {
 color: #2E2F42;
 font-size: 20px;
@@ -202,9 +201,32 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 }
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.portfolio-item {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.portfolio-item-app {
+width: calc((100%-48px)/3);
+}
+.app {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+
+}
 .footer-section {
 background-color: #2E2F42;
+padding: 100px 0;
 }
+
+
 .logo-studio-footer {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -212,11 +234,14 @@ background-color: #2E2F42;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+    display: inline-block;
+    margin-bottom: 16px;
 }   
 .footer-text {
     line-height: 1.5;
     color:#F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 
