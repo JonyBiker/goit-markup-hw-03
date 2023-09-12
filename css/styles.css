@@ -110,12 +110,14 @@ color: #404bbf;
 }
 .social-media {
     display: flex;
+   
 
 }
 .hero-address {
 font-style: normal;
 display: flex;
 align-items: center;
+gap: 40px;
 }
 .address-m {
 color: #434455;
@@ -155,8 +157,8 @@ max-width: 496px;
     display: flex;
     align-items: center;
 }
-.feature {
-
+.feature-container {
+padding: 0 32px;
 }
 .feature-text {
     display: flex;
