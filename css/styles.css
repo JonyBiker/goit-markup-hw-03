@@ -66,12 +66,14 @@ ul {
 }
 
 /*--header--*/
-
+.hero-header-section {
+border-bottom: 1px solid #e7e9fc;
+}
 .header-inner {
     display: flex;
     width: 1440px;
     padding: 0 32px;
-    border-bottom: 1px solid #e7e9fc;
+    
 
 }
 .header-nav {
@@ -110,8 +112,6 @@ color: #404bbf;
 }
 .social-media {
     display: flex;
-   
-
 }
 .hero-address {
 font-style: normal;
@@ -145,7 +145,6 @@ background: var(--NAVY-BLUE, #2E2F42);
 padding: 188px 0;
 align-items: center;
     }
-
 .hero-title {
 color: #ffffff;
 font-size: 56px;
