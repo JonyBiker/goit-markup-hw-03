@@ -105,6 +105,7 @@ color: #404bbf;
 }
 .social-media {
     display: flex;
+    gap: 40px;
 }
 .hero-address {
 font-style: normal;
@@ -228,7 +229,6 @@ letter-spacing: 0.02em;
 text-align: center;
 }
 .team-section {
-    display: flex;
     background: var(--CLOUD, #F4F4FD);
     flex-direction: column;
 
@@ -256,7 +256,6 @@ flex-basis: calc((100% - 48px) / 3);
     border-top: none;
     margin-bottom: 8px;
     align-items: start;
-    border-radius: 0 0 4px 4px;
 }
 
 /*--footer--*/
