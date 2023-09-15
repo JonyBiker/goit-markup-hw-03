@@ -262,7 +262,6 @@ flex-basis: calc((100% - 48px) / 3);
 /*--footer--*/
 
 .footer-section {
-    display: inline-block;
 background: var(--NAVY-BLUE, #2E2F42);
 padding: 100px 0;
 }
