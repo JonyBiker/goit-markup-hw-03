@@ -60,29 +60,17 @@ ul {
 }
 .container {
     display: flex;
-    flex-direction: column;
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
-
 /*--header--*/
 .hero-header-section {
     border-bottom: 1px solid #e7e9fc;
 }
-.header-inner {
-border-bottom: 1px solid #e7e9fc;
-padding: 8px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 0 32px;
-gap: 24px;
-}
 .header-nav {
     display: flex;
     align-items: center;
-    flex-grow: 1;
 }
 .logo {
 display: flex;
@@ -101,10 +89,7 @@ color: #2e2f42;
 }
 .nav-list {
     display: flex;
-    justify-content: center;
     gap: 40px;
-    flex-grow: 1
-    ;
 }
 .nav-link {
     display: inline-block;
@@ -306,7 +291,10 @@ padding: 100px 0;
     max-width: 264px;
 }
 
-
+.footer-container {
+    display: inline-block;
+    margin: 0 auto;
+}
 
 
 
