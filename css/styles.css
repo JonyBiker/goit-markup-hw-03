@@ -261,6 +261,7 @@ flex-basis: calc((100% - 48px) / 3);
 /*--footer--*/
 
 .footer-section {
+    display: inline-block;
 background: var(--NAVY-BLUE, #2E2F42);
 padding: 100px 0;
 }
@@ -289,9 +290,6 @@ padding: 100px 0;
     color:#F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
-}
-.footer-container {
-    display: inline-block;
 }
 
 
